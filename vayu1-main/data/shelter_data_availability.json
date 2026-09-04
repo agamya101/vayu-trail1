@@ -1,0 +1,75 @@
+{
+  "Andhra Pradesh": {
+    "available": true,
+    "source": "APSDMA GIS Portal (apsdma.ap.gov.in)",
+    "count": 250
+  },
+  "Odisha": {
+    "available": true,
+    "source": "OSDMA / NCRMP project reports (osdma.org)",
+    "count": 200
+  },
+  "West Bengal": {
+    "available": true,
+    "source": "District administration portals",
+    "count": 80
+  },
+  "Tamil Nadu": {
+    "available": true,
+    "source": "TNSDMA / Bhuvan geoportal",
+    "count": 100
+  },
+  "Gujarat": {
+    "available": true,
+    "source": "GSDMA (gsdma.org)",
+    "count": 120
+  },
+  "Kerala": {
+    "available": false,
+    "source": "KSDMA (sdma.kerala.gov.in)",
+    "count": 30,
+    "note": "KSDMA publishes shelter names and addresses but no coordinates. RTI application recommended for geo-coordinates."
+  },
+  "Karnataka": {
+    "available": false,
+    "source": "KSDMA project reports",
+    "count": 15,
+    "note": "Shelter locations exist in PDF reports but no machine-readable coordinate dataset is available."
+  },
+  "Maharashtra": {
+    "available": false,
+    "source": null,
+    "count": null,
+    "note": "MSDMA does not publish cyclone shelter locations publicly. Contact MSDMA at msdma@maharashtra.gov.in."
+  },
+  "Goa": {
+    "available": false,
+    "source": null,
+    "count": null,
+    "note": "No SDMA geospatial portal exists for Goa. Contact the Goa State Disaster Management Authority."
+  },
+  "Puducherry": {
+    "available": false,
+    "source": null,
+    "count": null,
+    "note": "No public cyclone shelter dataset available for Puducherry."
+  },
+  "Lakshadweep": {
+    "available": false,
+    "source": null,
+    "count": null,
+    "note": "No SDMA portal with shelter data. Contact the UT Administration."
+  },
+  "Andaman & Nicobar": {
+    "available": false,
+    "source": null,
+    "count": null,
+    "note": "No public dataset. Contact the Andaman & Nicobar Administration."
+  },
+  "Daman & Diu": {
+    "available": false,
+    "source": null,
+    "count": null,
+    "note": "No SDMA portal. Contact the UT Administration."
+  }
+}

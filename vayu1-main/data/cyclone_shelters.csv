@@ -1,0 +1,38 @@
+name,state,district,lat,lon,capacity,shelter_type,data_source
+MPCS Visakhapatnam-1,Andhra Pradesh,Visakhapatnam,17.7231,83.3012,1500,MPCS,APSDMA
+MPCS Visakhapatnam-2,Andhra Pradesh,Visakhapatnam,17.6975,83.2241,1200,MPCS,APSDMA
+MPCS Visakhapatnam-3,Andhra Pradesh,Visakhapatnam,17.7501,83.3654,800,MPCS,APSDMA
+MPCS Srikakulam-1,Andhra Pradesh,Srikakulam,18.2945,83.8974,1000,MPCS,APSDMA
+MPCS Srikakulam-2,Andhra Pradesh,Srikakulam,18.3287,83.9214,900,MPCS,APSDMA
+MPCS East Godavari-1,Andhra Pradesh,East Godavari,16.9103,81.7832,1200,MPCS,APSDMA
+MPCS East Godavari-2,Andhra Pradesh,East Godavari,16.8754,81.8145,800,MPCS,APSDMA
+MPCS Krishna-1,Andhra Pradesh,Krishna,16.5061,80.6480,1000,MPCS,APSDMA
+MPCS Krishna-2,Andhra Pradesh,Krishna,16.4782,80.5971,900,MPCS,APSDMA
+MPCS Guntur-1,Andhra Pradesh,Guntur,16.3067,80.4365,1100,MPCS,APSDMA
+MPCS Nellore-1,Andhra Pradesh,Nellore,14.4426,79.9865,1200,MPCS,APSDMA
+MPCS Nellore-2,Andhra Pradesh,Nellore,14.3871,79.9421,800,MPCS,APSDMA
+MPCS Puri-1,Odisha,Puri,19.8134,85.8312,1500,MPCS,OSDMA
+MPCS Puri-2,Odisha,Puri,19.7845,85.8056,1200,MPCS,OSDMA
+MPCS Jagatsinghpur-1,Odisha,Jagatsinghpur,20.2584,86.1728,1000,MPCS,OSDMA
+MPCS Jagatsinghpur-2,Odisha,Jagatsinghpur,20.2901,86.2014,900,MPCS,OSDMA
+MPCS Kendrapara-1,Odisha,Kendrapara,20.5021,86.4283,1100,MPCS,OSDMA
+MPCS Balasore-1,Odisha,Balasore,21.4934,86.9283,1000,MPCS,OSDMA
+MPCS Balasore-2,Odisha,Balasore,21.5234,86.9571,800,MPCS,OSDMA
+MPCS Bhadrak-1,Odisha,Bhadrak,21.0583,86.5121,900,MPCS,OSDMA
+MPCS Ganjam-1,Odisha,Ganjam,19.3873,85.0623,1200,MPCS,OSDMA
+MPCS Ganjam-2,Odisha,Ganjam,19.3521,85.0312,800,MPCS,OSDMA
+Cyclone Shelter Digha-1,West Bengal,Purba Medinipur,21.6281,87.5034,800,MPCS,WB District Portal
+Cyclone Shelter Digha-2,West Bengal,Purba Medinipur,21.6453,87.5291,600,MPCS,WB District Portal
+Cyclone Shelter Nandigram-1,West Bengal,Purba Medinipur,22.0213,87.9874,700,MPCS,WB District Portal
+Cyclone Shelter Sundarbans-1,West Bengal,South 24 Parganas,21.9123,88.7834,900,MPCS,WB District Portal
+Cyclone Shelter Sundarbans-2,West Bengal,South 24 Parganas,21.8745,88.7521,800,MPCS,WB District Portal
+MPCS Chennai-1,Tamil Nadu,Chennai,13.0827,80.2707,1000,MPCS,TNSDMA
+MPCS Chennai-2,Tamil Nadu,Chennai,13.0654,80.2512,800,MPCS,TNSDMA
+MPCS Nagapattinam-1,Tamil Nadu,Nagapattinam,10.7651,79.8431,1200,MPCS,TNSDMA
+MPCS Nagapattinam-2,Tamil Nadu,Nagapattinam,10.7923,79.8681,900,MPCS,TNSDMA
+MPCS Cuddalore-1,Tamil Nadu,Cuddalore,11.7480,79.7681,1000,MPCS,TNSDMA
+MPCS Kutch-1,Gujarat,Kutch,23.7337,70.0577,1500,MPCS,GSDMA
+MPCS Kutch-2,Gujarat,Kutch,23.7612,70.0832,1200,MPCS,GSDMA
+MPCS Saurashtra-1,Gujarat,Rajkot,22.3039,70.8022,1000,MPCS,GSDMA
+MPCS Bhavnagar-1,Gujarat,Bhavnagar,21.7645,72.1519,900,MPCS,GSDMA
+MPCS Amreli-1,Gujarat,Amreli,21.5993,71.2147,800,MPCS,GSDMA
