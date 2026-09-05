@@ -5,6 +5,31 @@ from dotenv import load_dotenv
 load_dotenv()
 BASE_DIR = Path(__file__).resolve().parent.parent
 
+# Windows dev: point GeoDjango at the OSGeo4W native libs (unnecessary on
+# Linux/macOS where they're resolved via the system library path).
+# The sqlite3.dll preload must happen before django.db.backends.sqlite3 is
+# ever imported — otherwise Python's bundled sqlite3.dll (no spatialite
+# support) claims the "sqlite3.dll" process-wide module name first, and
+# GDAL's later load fails with "specified procedure could not be found".
+if os.name == "nt" and os.getenv("SPATIALITE_LIBRARY_PATH"):
+    import ctypes
+
+    # h5py/netCDF4 ship their own hdf5 DLLs; they must claim that module
+    # name before GDAL loads its own build of hdf5.dll, or whichever
+    # loads first wins process-wide and the other fails to import.
+    import h5py  # noqa: F401
+    import netCDF4  # noqa: F401
+
+    _osgeo_bin = os.path.dirname(os.environ["SPATIALITE_LIBRARY_PATH"])
+    ctypes.WinDLL(os.path.join(_osgeo_bin, "sqlite3.dll"))
+
+if os.getenv("GDAL_LIBRARY_PATH"):
+    GDAL_LIBRARY_PATH = os.environ["GDAL_LIBRARY_PATH"]
+if os.getenv("GEOS_LIBRARY_PATH"):
+    GEOS_LIBRARY_PATH = os.environ["GEOS_LIBRARY_PATH"]
+if os.getenv("SPATIALITE_LIBRARY_PATH"):
+    SPATIALITE_LIBRARY_PATH = os.environ["SPATIALITE_LIBRARY_PATH"]
+
 # FIX 1: Crash loudly if SECRET_KEY is missing — no unsafe fallback
 SECRET_KEY = os.environ.get("SECRET_KEY")
 if not SECRET_KEY:
